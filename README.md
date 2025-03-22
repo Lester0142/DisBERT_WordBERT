@@ -33,7 +33,11 @@ git clone git@github.com:Lester0142/DisBERT_WordBERT.git
 #### 2. Set up and activate Environment
 ```
 python -m venv venv
-source venv/bin/activate
+
+linux:
+    source venv/bin/activate
+windows:
+    .\venv\Scripts\activate
 ```
 
 #### 3. Install required depencies and packages
@@ -43,11 +47,11 @@ pip install -r requirements.txt
 
 #### 4. Amend the config file as required
 ```
-Config file can be found in ./src/config/main_config.cfg
+config file can be found in ./src/config/main_config.cfg
 ```
 
 #### 5. Run the script
 ```
-python main.py
+python ./src/main.py
 ```
 
