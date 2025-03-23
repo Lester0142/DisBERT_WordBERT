@@ -36,7 +36,7 @@ class TrofiProcessor(DataProcessor):
 
     def get_train_examples(self, data_dir, k=None):
         """See base class."""
-        if k is not None and k > 0:
+        if k is not None or k >= 0:
             return self._create_examples(
                 self._read_tsv(os.path.join(data_dir, "train" + str(k) + ".tsv")), "train"
             )
