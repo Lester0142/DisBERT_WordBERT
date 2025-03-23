@@ -9,6 +9,13 @@ Before running the script, ensure that you have Python 3.7.6 and Nvidia CUDA ins
 Python 3.7.6: https://www.python.org/downloads/release/python-376/ \
 CUDA: https://developer.nvidia.com/cuda-downloads
 
+Also these are some dependencies requied for Ubuntu System to pip install pillow:
+#### Debian-based systems
+```
+sudo apt-get update
+sudo apt-get install libtiff4-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.5-dev tk8.5-dev python-tk
+```
+
 To ensure the appropriate requirements are successfully installed. Run the following in your terminal. The terminal respond should be similar as shown in the block below.
 ```
 python -V
@@ -43,7 +50,11 @@ windows:
 #### 3. Install required depencies and packages
 ```
 pip install -r requirements.txt
+python
+import nltk
+nltk.download('wordnet')
 ```
+close python interpreter using ctrl + 'd'
 
 #### 4. Amend the config file as required
 ```
