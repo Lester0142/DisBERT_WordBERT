@@ -13,7 +13,7 @@ from util.main_helper import set_seed, load_pretrained_model, load_trained_model
 def main():
 
     # =================== Load Config File ===================
-    config = Config(main_conf_path="./config/")
+    config = Config(main_conf_path="./src/config/")
     args = config
     # =================== End of Load Config File ===================
 
