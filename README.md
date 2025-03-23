@@ -39,6 +39,8 @@ git clone git@github.com:Lester0142/DisBERT_WordBERT.git
 
 #### 2. Set up and activate Environment
 ```
+cd DisBERT_WordBERT
+
 python -m venv venv
 
 linux:
@@ -50,8 +52,11 @@ windows:
 #### 3. Install required depencies and packages
 ```
 pip install -r requirements.txt
+
 python
+
 import nltk
+
 nltk.download('wordnet')
 ```
 close python interpreter using ctrl + 'd'
