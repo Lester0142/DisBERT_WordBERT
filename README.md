@@ -1,6 +1,6 @@
 # DisBERT_WordBERT
 
-This repository contains the Python script for training a metaphor identification model that leverages BERT. The model is trained using a dataset in `.tsv` format, containing sentences with corresponding labels for metaphor identification. This script is designed to train the model, fine-tune it, and evaluate its performance using F1-score, Precision, and Recall metrics.
+This repository contains the Python script for training a metaphor identification model that leverages BERT. The model is trained using a dataset in `.tsv` format, containing sentences with corresponding labels for word-level metaphor identification. This script is designed to train and fine-tune the model and evaluate its performance using F1-score, Precision, and Recall metrics.
 
 ## Prerequisites
 
