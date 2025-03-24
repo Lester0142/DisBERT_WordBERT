@@ -9,7 +9,7 @@ Before running the script, ensure that you have Python 3.7.6 and Nvidia CUDA ins
 Python 3.7.6: https://www.python.org/downloads/release/python-376/ \
 CUDA: https://developer.nvidia.com/cuda-downloads
 
-Also these are some dependencies requied for Ubuntu System to pip install pillow:
+Also these are some dependencies required for Ubuntu System to pip install pillow:
 #### Debian-based systems
 ```
 sudo apt-get update
